@@ -9,7 +9,9 @@ $(call inherit-product-if-exists, vendor/amazon/apollo/apollo-vendor.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 
-
-
-
-
+#
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.qcom.ad=2 \
+	ro.usb.pid=000d \
+	persist.panel.orientation=90 \
+	ro.sf.hwrotation = 90
