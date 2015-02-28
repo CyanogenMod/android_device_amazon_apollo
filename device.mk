@@ -13,5 +13,4 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qcom.ad=2 \
 	ro.usb.pid=000d \
-	persist.panel.orientation=90 \
 	ro.sf.hwrotation = 90
