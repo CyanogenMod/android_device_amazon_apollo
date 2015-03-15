@@ -16,8 +16,8 @@
 $(call inherit-product, device/amazon/hdx-common/cm.mk)
 $(call inherit-product, device/amazon/apollo/full_apollo.mk)
 
-TARGET_SCREEN_WIDTH := 1600
-TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 2560
+TARGET_SCREEN_HEIGHT := 1600
 
 PRODUCT_NAME := cm_apollo
 PRODUCT_RELEASE_NAME := KFireHDX

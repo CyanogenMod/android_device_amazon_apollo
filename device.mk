@@ -1,5 +1,13 @@
 DEVICE_FOLDER := device/amazon/apollo
 
+# Set dirty regions off
+PRODUCT_PROPERTY_OVERRIDES += \
+	hwui.render_dirty_regions=false
+
+# Disable ext sdcard
+PRODUCT_CHARACTERISTICS := \
+	tablet,nosdcard
+
 # Inherit from hdx
 $(call inherit-product, device/amazon/hdx-common/hdx-common.mk)
 
