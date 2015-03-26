@@ -7,4 +7,4 @@ PRODUCT_NAME := full_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Kindle Fire HDX
-PRODUCT_MANUFACTURER := amazon
+PRODUCT_MANUFACTURER := amzn
