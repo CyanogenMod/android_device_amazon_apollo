@@ -20,7 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_FOLDER)/overlay
 ADDITIONAL_BUILD_PROPERTIES += \
 	ro.qcom.ad=2 \
 	ro.usb.pid=000d \
-	ro.sf.hwrotation = 90
+	ro.sf.hwrotation=90
 
 # configs
 PRODUCT_COPY_FILES += \
