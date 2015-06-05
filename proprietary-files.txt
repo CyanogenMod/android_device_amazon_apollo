@@ -49,7 +49,6 @@ bin/abtfilt
 bin/rfs_access
 bin/ptt_socket_app
 bin/adsprpcd
-bin/cnd
 bin/display
 bin/ssr_diag
 bin/get_emmcid.sh
@@ -99,8 +98,6 @@ etc/wfdconfig.xml
 etc/vendor_service.conf
 etc/usf_settings.sh
 etc/usf_post_boot.sh
-etc/thermal-engine-apollo.conf
-etc/thermal-engine-8974.conf
 etc/sensor_def_qcomdev.conf
 etc/sec_config
 etc/sap.conf
@@ -112,18 +109,15 @@ etc/monitoring.conf
 etc/lowi.conf
 etc/kft_blacklist.conf
 etc/izat.conf
-etc/init.set_model.sh
 etc/init.qcom.wifi.sh
 etc/init.qcom.sdio.sh
 etc/init.qcom.post_boot.sh
-etc/init.qcom.modem_links.sh
 etc/init.qcom.fm.sh
 etc/init.qcom.efs.sync.sh
 etc/init.qcom.coex.sh
 etc/init.qcom.bt.sh
 etc/init.qcom.audio.sh
 etc/init.crda.sh
-etc/init.ath3k.bt.sh
 etc/hsic.control.bt.sh
 etc/hcidump.sh
 etc/gps.conf
@@ -137,10 +131,6 @@ etc/cacert_location.pem
 etc/bcompat.manifest
 etc/ad_calib.cfg
 etc/ReceiverFilterPolicy.xml
-etc/wifi/wpa_supplicant_overlay.conf
-etc/wifi/wpa_supplicant_ath6kl.conf
-etc/wifi/p2p_supplicant_overlay.conf
-etc/wifi/WCNSS_qcom_cfg.ini
 etc/hostapd/hostapd_default.conf
 etc/hostapd/hostapd.deny
 etc/hostapd/hostapd.accept
@@ -278,7 +268,6 @@ vendor/lib/libqdi.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
 vendor/lib/drm/libdrmprplugin.so
-vendor/lib/libdrmdecrypt.so
 vendor/lib/libgessockadapter.so
 vendor/lib/libxml.so
 vendor/lib/libqmi_cci.so
@@ -468,13 +457,6 @@ vendor/lib/librs_adreno.so
 vendor/lib/libscve.so
 vendor/lib/libsc-a2xx.so
 vendor/lib/libsc-a3xx.so
-
-# Widevine Libs
-vendor/lib/drm/libdrmwvmplugin.so
-#vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib/libwvm.so
-vendor/lib/libwvdrm_L3.so
-vendor/lib/libWVStreamControlAPI_L3.so
 
 # firmwares
 etc/firmware/a225_pfp.fw
