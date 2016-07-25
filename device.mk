@@ -24,6 +24,10 @@ ADDITIONAL_BUILD_PROPERTIES += \
 	ro.usb.pid=000d \
 	ro.sf.hwrotation=90
 
+# Rear camera permission
+PRODUCT_COPY_FILES += \
+	frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml
+
 # configs
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
